@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display:flex;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    
+}
+img{
+    width: 100px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+display: inline-block;
+list-style-type: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #555;
+    font-size: 100%;
+}
+
+section{
+    background-image: url("Images/image_10.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    /* border:1px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+.right0{
+    /* margin-left:58em; */
+    /* width: 438.6px; */
+    /* height: 215px; */
+    background-color: rgb(37, 141, 226);
+    color: white;
+    /* background-size: 200px; */
+    /* padding-top: 20px;
+    padding-left: 35px */
+    /* border: 1px solid black; */
+    width: 32%;
+    /* padding: 20px; */
+    /* line-height: 240%; */
+    padding: 2.7% 0 3% 3%;
+}
+.right0 h3 {
+    line-height: 1.6;
+     width: 75%;
+     /* border: 1px solid black; */
+     font-size: 120%;
+
+}
+.right0 h5 {
+    line-height: 1.6;
+     width: 55%;
+     margin-top: 8%;
+
+}
+.right1{
+    /* margin-left:67.8em; */
+    /* width: 325px; */
+    /* height: 60px; */
+    background-color: white;
+    color: rgb(39, 173, 68);
+    /* padding-top: 20px;
+    padding-left: 35px */
+    padding: 1.5%;
+}
+h3{
+    /* font-size: 1.4em; */
+    /* font-size: 20px; */
+}
+h4{
+    /* margin-left: -1.4em; */
+    font-size: 18.5px;
+    
+    
+}
+
+h5{
+    /* margin-top: 2.5em; */
+    /* font-size: 16.8px; */
+}
+.right2{
+    color: white;
+    /* margin-top: -1.6em;
+    margin-left: 7.9em; */
+    /* border: 1px solid black; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%; */
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.right2 h1 {
+    font-size: 3em;
+    /* word-spacing: -8px; */
+   
+}
+p{
+    font-size: 128%;
+   line-height: 30px;
+}
+.container1{
+    /* flex:2; */
+    /* height: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border: 1px solid green;
+}
+.container2{
+    /* flex:1 */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+
